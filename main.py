@@ -33,9 +33,9 @@ st.header("Personaliseeritud turundusteksti konverter")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("Otstarve: tootetutvustustekstide personaliseerimine igale kliendile või kliendigruppidele; väljundtekst on kohandatud kliendi a) vanuserühmaga ja b) hobbitegevusega; sisendtekstiks on neutraalses vormis tootekirjeldus. \
-    \n\n Kasutusjuhend: 1) valmista ette tootekirjeldus (sisendtekst). 2) määra tarbijasegemendid lähtuvalt vanuserühma ja hobbide kombinatsioonidest. 3) sisesta ükshaaval tarbijasegmentide lõikes eeltoodud info äpi kasutajaliideses, saada ära. \
-    4) kopeeri ükshaaval tarbijasegmentide lõikes äpi väljundteksti kõnealuse toote tutvustuslehele.")
+    st.markdown("Otstarve: turundustekstide personaliseerimine igale kliendile või kliendigruppidele; väljundtekst on kohandatud kliendi a) lapse vanuserühmaga ja b) huvidega; sisendtekstiks on neutraalses vormis teenuse kirjeldus. \
+    \n\n Kasutusjuhend: 1) valmista ette teenuste kirjeldused (sisendtekst). 2) määra klientide sihtrühmad lähtuvalt nende laste vanuserühma ja huvide kombinatsioonidest. 3) sisesta ükshaaval kliendi sihtrühmade lõikes eeltoodud info äpi kasutajaliideses, saada ära. \
+    4) kopeeri ükshaaval sihtgruppide lõikes äpi väljundteksti kõnealuse teenuse tutvustuslehele.")
 
 with col2:
     st.image(image='Väike Seikleja logo.jpg', caption='Cozy and stylish playroom for your little ones')
