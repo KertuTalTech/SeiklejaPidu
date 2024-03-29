@@ -56,7 +56,7 @@ col1, col2 = st.columns(2)
 with col1:
     option_agegroup = st.selectbox(
         'Which age group would you like your content to target?',
-        ('9-15', '16-19', '20-29', '30-39', '40-49', '50-59', '60-69', '70-79', '80-100'))
+        ('0-1', '2-3', '4-5', '6-7'))
     
 def get_interest():
     input_text = st.text_input(label="Customers main interest", key="interest_input")
@@ -76,7 +76,7 @@ if len(content_input.split(" ")) > 700:
 
 def update_text_with_example():
     print ("in updated")
-    st.session_state.content_input = "t shirts, all clolors, cotton, responsible manufacturing"
+    st.session_state.content_input = "children parties, playmornings, ages 0-7, personalised activities"
 
 st.button("*GENERATE TEXT*", type='secondary', help="Click to see an example of the content you will be converting.", on_click=update_text_with_example)
 
