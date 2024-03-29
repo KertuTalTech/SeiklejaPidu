@@ -13,7 +13,7 @@ template = """
     FORMAT: Present the result in the following order: (SERVICE DESCRIPTION), (BENEFITS), (OPTIONS);
     SERVICE DESCRIPTION: describe the service in 5 sentences;
     BENEFITS: describe in 3 sentences why this service is perfect considering customer´s child´s age group and interest;
-    OPTIONS: Provide a story in 5 sentences, of an example options of extra activities at the party taking into account interest {interest} and child´s age {agegroup};
+    OPTIONS: Provide a story in 5 sentences, of an example options of extra activities at the party taking into account interest {interest} and child´s age {agegroup}; OUTPUT TEXT in Estonian;
 """
 
 prompt = PromptTemplate(
