@@ -38,7 +38,7 @@ with col1:
     4) kopeeri ükshaaval tarbijasegmentide lõikes äpi väljundteksti kõnealuse toote tutvustuslehele.")
 
 with col2:
-    st.image(image='Väike Seikleja logo.jpg', caption='Natural and healthy shirts for everybody')
+    st.image(image='Väike Seikleja logo.jpg', caption='Cozy and stylish playroom for your little ones')
 
 st.markdown("## Enter Your Content To Convert")
 
